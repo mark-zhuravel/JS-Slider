@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Slider</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/61fcd61387.js" crossorigin="anonymous"></script>
+    <script defer src="js/main.js"></script>
+</head>
+<body class="bg-gray-100">
+
+    <h1 class="text-center mt-12 mb-8 text-4xl font-bold">Mercedes-Benz C-Class</h1>
+
+    <div class="autoplay text-center mb-6">
+        <input class="btn__auto cursor-pointer" type="checkbox" name="autoplay" id="autoplay">
+        <label for="autoplay">Autoplay</label>
+    </div>
+
+    <div class="slider mx-auto w-[800px] relative overflow-x-hidden shadow-xl">
+        <div class="slides flex min-w-[100%]">
+            <div class="slide min-w-[100%] bg-gray-300">
+                <img class="max-h-[450px] min-w-full" src="img/cclasscclassrightfrontthreequarter.jpg" alt="Mercedes-Benz C-Class">
+                <h3 class="text-center font-medium text-2xl my-4">Mercedes-Benz C-Class</h3>
+            </div>
+            <div class="slide min-w-[100%] bg-gray-300">
+                <img class="max-h-[450px] min-w-full" src="img/cclasscclassrightfrontthreequarter (1).jpg" alt="Right Front Three Quarter">
+                <h3 class="text-center font-medium text-2xl my-4">Right Front Three Quarter</h3>
+            </div>
+            <div class="slide min-w-[100%] bg-gray-300">
+                <img class="max-h-[450px] min-w-full" src="img/cclasscclassrightsideview.jpg" alt="Right Side View">
+                <h3 class="text-center font-medium text-2xl my-4">Right Side View</h3>
+            </div>
+            <div class="slide min-w-[100%] bg-gray-300">
+                <img class="max-h-[450px] min-w-full" src="img/cclasscclassrearview.jpg" alt="Rear View">
+                <h3 class="text-center font-medium text-2xl my-4">Rear View</h3>
+            </div>
+            <div class="slide min-w-[100%] bg-gray-300">
+                <img class="max-h-[450px] min-w-full" src="img/cclasscclassleftfrontthreequarter.jpg" alt="Left Front Three Quarter">
+                <h3 class="text-center font-medium text-2xl my-4">Left Front Three Quarter</h3>
+            </div>
+            <div class="slide min-w-[100%] bg-gray-300">
+                <img class="max-h-[450px] min-w-full" src="img/cclasscclassfrontview.jpg" alt="Front View">
+                <h3 class="text-center font-medium text-2xl my-4">Front View</h3>
+            </div>
+            <div class="slide min-w-[100%] bg-gray-300">
+                <img class="max-h-[450px] min-w-full" src="img/cclasscclassrearrowcentrearmrest.jpg" alt="Rear Row Centre Arm Rest">
+                <h3 class="text-center font-medium text-2xl my-4">Rear Row Centre Arm Rest</h3>
+            </div>
+        </div>
+        <button class="btn__prev absolute top-1/2 left-4 transform -translate-y-1/2 w-12 h-12 bg-black bg-opacity-50 text-white rounded-full flex items-center justify-center hover:bg-opacity-80 transition duration-300 ease-in-out">
+            <i class="fas fa-arrow-left text-lg"></i>
+        </button>
+        <button class="btn__next absolute top-1/2 right-4 transform -translate-y-1/2 w-12 h-12 bg-black bg-opacity-50 text-white rounded-full flex items-center justify-center hover:bg-opacity-80 transition duration-300 ease-in-out">
+            <i class="fas fa-arrow-right text-lg"></i>
+        </button>
+    </div>
+
+    <div class="navigation flex justify-center gap-2 mt-4 mb-10">
+        <button class="btn w-[25px] h-[25px] rounded-full border border-black hover:scale-110 hover:bg-gray-400 transition duration-300 ease-in-out"></button>
+        <button class="btn w-[25px] h-[25px] rounded-full border border-black hover:scale-110 hover:bg-gray-400 transition duration-300 ease-in-out"></button>
+        <button class="btn w-[25px] h-[25px] rounded-full border border-black hover:scale-110 hover:bg-gray-400 transition duration-300 ease-in-out"></button>
+        <button class="btn w-[25px] h-[25px] rounded-full border border-black hover:scale-110 hover:bg-gray-400 transition duration-300 ease-in-out"></button>
+        <button class="btn w-[25px] h-[25px] rounded-full border border-black hover:scale-110 hover:bg-gray-400 transition duration-300 ease-in-out"></button>
+        <button class="btn w-[25px] h-[25px] rounded-full border border-black hover:scale-110 hover:bg-gray-400 transition duration-300 ease-in-out"></button>
+        <button class="btn w-[25px] h-[25px] rounded-full border border-black hover:scale-110 hover:bg-gray-400 transition duration-300 ease-in-out"></button>
+    </div>
+</body>
+</html>
